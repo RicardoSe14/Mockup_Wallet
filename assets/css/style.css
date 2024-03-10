@@ -1,0 +1,183 @@
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.form-check {
+    color: #ffffff;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+body {
+    background: url(../img/fondo.jpg) no-repeat fixed; 
+    background-size: cover;
+}
+
+.botonmenu1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+
+.botonmenu2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+.botonmenu3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+.botonmenu4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+.botonmenu5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+.botonmenu6 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+
+
+.volver {
+    font-weight: bold !important;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.volver2 {
+    font-weight: bold !important;
+    border-radius: 15px;
+    background-color: purple;
+    font-size:  calc(1.0rem + 0.2vw) !important;
+    color: #ffffff;
+}
+
+
+.menudeposit {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 280px;
+}
+
+.imagenPrincipal {
+    background: url(../img/pc.webp) no-repeat center;
+    border-radius: 10px;
+    height: 500px;
+    background-size: cover;
+}
+
+.form-control {
+    width: 320px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.menu {
+    vertical-align: middle;
+    align-items: center;
+}
+
+.saldo {
+    color: #303030;
+    font-size:  calc(1.5rem + 0.2vw) !important;
+}
+
+
+.saldo2 {
+    padding-top:90px;
+    color: #303030;
+    font-size:  calc(1.8rem + 0.2vw) !important;
+}
+
+.monto {
+    padding-top:60px;
+    color: #303030;
+    font-size:  calc(1.8rem + 0.2vw) !important;
+}
+
+
+.send {
+    color: #303030;
+    font-size:  calc(1.5rem + 0.2vw) !important;
+}
+
+.deposit {
+    color: #303030;
+    font-size:  calc(1.5rem + 0.2vw) !important;
+}
+
+.help {
+    color: #303030;
+    font-size:  calc(1.5rem + 0.2vw) !important;
+}
+
+.exit {
+    color: #303030;
+    font-size:  calc(1.5rem + 0.2vw) !important;
+}
+
+.transaction  {
+    color: #303030;
+    font-size:  calc(1.5rem + 0.2vw) !important;
+}
+
+
+.botonmenu1:hover {
+    background-color: purple !important;
+
+}
+
+.botonmenu2:hover {
+    background-color: purple !important;
+
+}
+
+.botonmenu3:hover {
+    background-color: purple !important;
+}
+
+.botonmenu4:hover {
+    background-color: purple !important;
+}
+
+.botonmenu5:hover {
+    background-color: purple !important;
+}
+
+.botonmenu6:hover {
+    background-color: purple !important;
+}
+
+.volver:hover {
+    background-color: purple !important;
+}
