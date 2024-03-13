@@ -1,27 +1,16 @@
+$(document).ready(function() {
 
-
-const formulario = document.querySelector( "#formulario" );
-const btnEnviar = document.querySelector( "#btnEnviar" );
-const btnCargando = document.querySelector( "#btnCargando" );
-
-formulario.addEventListener( "submit", ( e )  => {
-    btnEnviar.classList.add("d-none");
-    btnCargando.classList.remove("d-none");
-
-    e.preventDefault();
-
-    const datos = new FormData(formulario);
-    console.log("email:", datos.get('campoEmail'));
-    console.log("password:", datos.get('campoPassword'));
-    console.log("aceptar:", datos.get('campoAceptar'));
-
-    //enviar los datos al backend
-
-    //simulación de carga
-
-
-    window.setTimeout(()=>{
-        btnEnviar.classList.remove("d-none");
-        btnCargando.classList.add("d-none");
-    }, 1000);
-})
+    //validar inicio de sesión}}
+     $("#formulario").submit(function(event) {
+    
+    event.preventDefault();
+    
+    var email = $('#inputEmail').val();
+    var password  = $('#inputPassword').val(); 
+    if  (password == '123456' && email == 'ricardo@gmail.com')
+        window.location.href = "menu.html";
+    else alert ("Credenciales no validas")
+    
+    //validar el correo electronico
+    
+    })});

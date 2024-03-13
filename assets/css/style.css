@@ -181,3 +181,34 @@ label {
 .volver:hover {
     background-color: purple !important;
 }
+
+.contacto {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 220px;
+}
+
+.contacto1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 220px;
+}
+
+.añadircontacto {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold !important;
+    height: 330px;
+}
+
+.ayuda {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.lista {
+    border-radius: 10px;
+    background-color: #ffffff;
+}

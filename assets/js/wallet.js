@@ -61,36 +61,36 @@ $(".botonmenu6").mouseleave(function() {
 
 
 
-    $(document).ready(function() {
-        var balance = 1000000;
-      
-        function updateBalance() {
-          $('#balance').text("$" + balance.toFixed(0) + " CLP");
-        }
-      
-        $('#depositBtn').click(function() {
-          var amount = parseFloat($('#amount').val());
-          if (!isNaN(amount) && amount > 0) {
-            balance += amount;
-            updateBalance();
-            $('#amount').val('');
-            alert('Deposit realizado!');
-          } else {
-            alert('Monto invalido. Por favor ingrese un número positivo.');
-          }
-        });
-      
-        $('#withdrawBtn').click(function() {
-          var amount = parseFloat($('#amount').val());
-          if (!isNaN(amount) && amount > 0 && amount <= balance) {
-            balance -= amount;
-            updateBalance();
-            $('#amount').val('');
-            alert('Retiro exitoso!');
-          } else {
-            alert('Cantidad no válida. Ingrese un número válido dentro de su saldo.');
-          }
-        });
-      });
 
 
+
+      $(document).ready(function () {
+        $("#AñadirContacto").click(function(){
+            const nombre =  $("#nombre").val();
+            const  alias=$("#alias").val();
+            const  banco =$("#nombreBanco").val();
+            const  cuenta=$("#numeroCuenta").val();
+
+
+          
+        
+           
+        //mostrar resultado
+        
+        $("#NombreContacto").html(nombre);
+        $("#AliasContacto").html(alias);
+      $("#NombreBancoContacto").html( "Banco "+banco) ;  
+        $("#NumeroCuentaContacto").html(cuenta);
+        
+        return true;
+        })
+        });
+  
+        
+  
+  
+        $("#AñadirContacto").click(function(){
+          $(".contacto1").show(0);
+        });
+
+        
